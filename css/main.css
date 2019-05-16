@@ -1,0 +1,153 @@
+/* BODY */
+@font-face {
+	font-family: 'Wisdom Script';
+	src: url('../fonts/wisdom-script.otf') format('opentype');
+}
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4 {
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 30px;
+
+}
+
+h2 {
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 12px;
+}
+
+h4 {
+    font-size: 16px;
+}
+
+p {
+    font-size: 16px;
+    padding: 0 30px;
+    line-height: 25px;
+}
+
+/* HEADER */
+
+header {
+    height: 110px;
+}
+
+header h1 {
+    float: left;
+    padding: 36px 0;
+}
+
+header span {
+    color: #77A466;
+}
+
+header nav {
+    float: right;
+    padding: 46px 0;
+}
+
+header nav ul {
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 0 10px;
+}
+
+header nav ul li a {
+	text-decoration: none;
+    color: #77A466;
+}
+
+/* TOP SECTION */
+
+.top-section {
+    margin: 0 auto;
+}
+
+.main-title h2 {
+    color: #77A466;
+}
+
+.main-title p {
+    padding: 0;
+}
+
+.main-image img {
+    border-bottom: 3px solid #77A466;
+    border-top: 3px solid #77A466;
+}
+/* BOTTOM SECTION */
+
+.bottom-section {
+    margin: 0 auto;
+}
+
+.section-one, .section-two, .section-three {
+    width: 33%;
+    height:auto;
+    float: left;
+    border-top: 1px solid #dedbdc;
+}
+
+.section-one h3 {
+    padding: 10px 0;
+}
+
+.section-two {
+    border-left: 1px solid #dedbdc;
+    border-right: 1px solid #dedbdc;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    padding: 10px 0;
+    color: #77A466;
+}
+
+.section-two h3, .section-three h3 {
+    padding: 10px 30px;
+}
+
+/* FOOTER */
+
+footer {
+    height: 80px;
+    clear: both;
+    text-align: center;
+    border-top: 1px solid #dedbdc;
+    padding: 30px 0 0 0;
+}
+
+footer span {
+    font-family: 'Wisdom Script', cursive;
+    font-size: 16px;
+    text-transform: lowercase;
+    color: #77A466;
+    
+}
